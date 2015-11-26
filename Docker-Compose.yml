@@ -11,7 +11,7 @@ redis:
 web:
   build: .
   ports:
-    - "3000:80"
+    - "3000"
   environment:
     - RAILS_ENV=review
   links:
